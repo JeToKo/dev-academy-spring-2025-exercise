@@ -1,3 +1,9 @@
+# dev-academy-2025
+Solita Dev Academy Finland January 2025
+
+Forked from: https://github.com/solita/dev-academy-spring-2025-exercise
+
+
 # dev-academy-spring-2025-exercise
 
 This is the pre-assignment for Solita Dev Academy Finland January 2025. But if you’re here just purely out of curiosity, feel free to snatch the idea and make your own app just for the fun of it!
