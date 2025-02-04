@@ -61,9 +61,10 @@ const DailyStatistics = () => {
           data: []
         };
       }
-      stats[date].totalConsumption += row.consumptionamount;
-      stats[date].totalProduction += row.productionamount;
-      stats[date].priceSum += row.hourlyprice;
+      console.log(stats[date])
+      stats[date].totalConsumption += Number(row.consumptionamount);
+      stats[date].totalProduction += Number(row.productionamount);
+      stats[date].priceSum += Number((row.hourlyprice));
       stats[date].priceCount ++;
       stats[date].data.push(row);
       
